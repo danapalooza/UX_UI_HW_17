@@ -1,19 +1,21 @@
 body {
-/* "resetting the block model" and adding  */
+    /* "resetting the block model" and adding  */
     margin: 0px;
     border: 0px;
     padding: 0px;
+    /*  */
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
 nav, header, section, div, p, ul {
-/* giving everything a border */
-    border: 1px solid  brown;
+    /* giving everything a border */
+    /* border: 1px solid  brown; */
 }
 
 .inline-block {
     /* border for the above element for visibiliy */
-    border: 1px solid cyan; 
+    /* border: 1px solid cyan;  */
     display: inline-block;
     vertical-align: top;
 }
@@ -33,6 +35,7 @@ ul {
     width: 50%;
     margin-left: auto;
     list-style-type: none;
+    padding: 0px;
 }
 
 li {
@@ -42,4 +45,19 @@ li {
 .heroText {
     height: 600px;
     padding: 25px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 45px;
+}
+
+#heroName {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    color: white;
 }
